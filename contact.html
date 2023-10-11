@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.0/components/contacts/contact-1/assets/css/contact-1.css" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/conflict-detection.min.js" integrity="sha512-tOK04OMrEtOhHdTJSiClQ6wlAHB4BizsjbKbt8KRLLfN1xeCl84CdOW0B++kTNYPp+VDlgJg+jrWX6FuCDx7kg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<div class="container">
+  <div class="row">
+    <div class="card d-flex justify-content-center mx-auto my-3 p-5">
+      <h6 class="text-muted"></h6>
+      <h2>Contact Us</h2>
+    
+        <div class="form-row">
+            <div class="form-group col-md-6 first">
+              <label for="inputFirstName">FIRST NAME <span>*</span></label>
+              <input type="text" class="form-control" id="inputFirstName" name="firstname" required>
+              <div id="fname_error" class="val_error"></div>
+            </div>
+            <div class="form-group col-md-6 first">
+                <label for="inputLastName">LAST NAME <span>*</span></label>
+                <input type="text" class="form-control" id="inputLastName" name="lastname">
+                <div id="lname_error" class="val_error"></div>
+            </div>  
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail">EMAIL <span>*</span></label>
+              <input type="email" class="form-control" id="inputEmail" name="youremail">
+              <div id="email_error" class="val_error"></div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPhone">PHONE <span>*</span></label>
+                <input type="text" class="form-control" id="inputPhone" name="yourphoneno">
+                <div id="phone_error" class="val_error"></div>
+            </div>  
+          </div>
+          <div class="form-group mt-0">
+            <label for="exampleFormControlTextarea1">MESSAGE <span>*</span></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="yourmessage"></textarea><div id="message_error" class="val_error"></div>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">&nbsp;&nbsp;Send me offers & updates</label>
+        </div>
+        <div class="form-button pt-4">
+          <button type="submit" class="btn btn-primary btn-block btn-lg" value="Register" name="register"><span>SEND MESSAGE</span></button>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<style>
+
+
+
+@import url('https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab');
+
+
+body{
+ background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 13%, rgba(20,25,11,1) 100%);
+  font-family: Arial, Helvetica , sans-serif;
+}
+.card{
+  border: none;
+  height: 660px;
+  border-radius: 1;
+  width: 550px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1)
+}
+.text-muted{
+  font-weight: 500!important;
+
+  font-size: 12px;
+  color: #6c757dcc!important;
+}
+h2{
+  color: #028282;
+  padding: 10px 0 20px;
+  font-family: Roboto Slab!important;
+  font-weight: bold;
+}
+.form-group{
+  margin-top: 20px;
+}
+.first{
+  margin-top: 0!important;
+}
+.form-control{
+  border-radius: 0;
+}
+.form-group label{
+  font-size: 9px;
+  font-weight: bold;
+}
+.form-group span{
+  color: rgb(255,0,0);
+}
+.form-control:focus{
+  border: 3px solid #adb5bd;
+  border-radius: 3;
+  box-shadow: none;
+  background: #ff000012;
+  letter-spacing: 1px;
+  color: #000;
+}
+.form-check-label{
+  font-size: 9px;
+  font-weight: bold;
+}
+.btn-block{
+  border-radius:0;
+  border: 1px;
+  background: blue;
+  margin-top: 10px;
+  padding-top: 0px;
+  background: #027676;
+}
+.btn-block:hover{
+  background: #027676;;
+}
+.btn-block:focus{
+  box-shadow: none;
+  background: #018080!important;
+}
+.btn-primary span{
+  font-size: 12px;
+}
+
+.val_error{
+  color: #dc3545;
+  font-size: 10px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+</style>
